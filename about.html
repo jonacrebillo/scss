@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Future</title>
+</head>
+<body>
+    <div id="header">
+        <header class="future">
+          <div class="container">
+            <nav>
+              <h1 class="logo">Pyutchor</h1>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#" id="show-login2">Sign In</a></li>
+              </ul>
+            </nav>
+  
+            <div class="future-content">
+                <div>
+                  <h1>About</h1>
+                  <p class="my-1">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                    eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+                    vitae dolore.
+                  </p>
+                  <a href="#about" class="btn-primary">Learn More</a>
+                </div>
+                <img src="assets/images/future city.svg" />
+            </div>
+
+            <div id="about">
+                <div class="about">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <h1>Lorem Ipsum</h1>
+                            <hr>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                        eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+                        vitae dolore.
+                            </p>
+                        </div>
+                        <div class="about-col-2">
+                            <h1>Lorem Ipsum</h1>
+                            <hr>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                        eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+                        vitae dolore.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="row2">
+                        <div class="about-col-3">
+                            <h1>Lorem Ipsum</h1>
+                            <hr>
+                            <ul>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup2">
+                <div class="close-btn">&times;</div>
+                <div class="form">
+                  <h2>Sign in</h2>
+                  <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                  </div>
+                  <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                  </div>
+                  <div class="form-element">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                  </div>
+                  <div class="form-element">
+                    <button>Sign in</button>
+                  </div>
+                  <div class="form-element">
+                    <a href="#">Forgot password?</a>
+                 </div>
+                </div>
+              </div>
+          
+              <script>
+                document.querySelector("#show-login2").addEventListener
+                ("click", function(){
+                  document.querySelector(".popup2").classList.add("active");
+                });
+                document.querySelector(".popup2 .close-btn").addEventListener
+                ("click", function(){
+                  document.querySelector(".popup2").classList.remove("active");
+                });
+              </script>
+        </header>
+      </div>
+</body>
+</html>
